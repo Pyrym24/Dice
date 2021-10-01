@@ -15,6 +15,7 @@ void setup()
     diceSum = 0;
     for(int i = 0; i<500; i+=20){
       for(int j = 0; j<400;j+=20){
+        stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
         Die jeff = new Die(i,j);
         jeff.show(randDie = jeff.roll());
         sum +=randDie;
