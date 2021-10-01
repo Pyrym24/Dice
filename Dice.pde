@@ -23,8 +23,11 @@ void setup()
         diceSum++;
       }
     }
+    textSize(10);
     text("Total value: "+sum, 250,450);
     text("Total dice: "+diceSum,250,475);
+    textSize(30);
+    text("DICE!",250,435);
   }
   void mousePressed()
   {
